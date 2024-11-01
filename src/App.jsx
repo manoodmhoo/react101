@@ -27,6 +27,8 @@ import SessionLogin from './Hooks/ReacyLifecycle/Workshop/SessionLogin'
 
 import UseMemo1 from './Hooks/useMemo/useMemo1'
 
+import UseCallback1 from './Hooks/useCallback/UseCallback1'
+
 function App() {
   const [isShow, setIsShow] = useState(true)
 
@@ -59,7 +61,9 @@ function App() {
       {/* <FieldFocus /> */}
       {/* <SessionLogin /> */}
 
-      <UseMemo1 />
+      {/* <UseMemo1 /> */}
+
+      <UseCallback1 />
     </>
   )
 }
