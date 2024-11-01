@@ -25,6 +25,8 @@ import FormValidation from './Hooks/ReacyLifecycle/Workshop/FormValidation'
 import FieldFocus from './Hooks/ReacyLifecycle/Workshop/FieldFocus'
 import SessionLogin from './Hooks/ReacyLifecycle/Workshop/SessionLogin'
 
+import UseMemo1 from './Hooks/useMemo/useMemo1'
+
 function App() {
   const [isShow, setIsShow] = useState(true)
 
@@ -55,7 +57,9 @@ function App() {
       {/* <AutoSuggestion /> */}
       {/* <FormValidation /> */}
       {/* <FieldFocus /> */}
-      <SessionLogin />
+      {/* <SessionLogin /> */}
+
+      <UseMemo1 />
     </>
   )
 }
